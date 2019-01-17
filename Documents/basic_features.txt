@@ -1,0 +1,9 @@
+(i)There will be prices of products from 3 different websites,they are
+      1.https://startech.com.bd
+      2.https://ryanscomputers.com
+      3.https://www.village-bd.com
+
+(ii)For every product shown there will be prices from all these websites and also their description from specific sites(one site may have 
+some extra info about the product)
+
+(iii)There will be product selection tool according to customer's choice(e.g customer can click on Motherboard and view all models)
