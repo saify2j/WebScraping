@@ -2,6 +2,9 @@ import requests,csv,os
 from bs4 import BeautifulSoup
 
 
+
+
+
 def loadLastPage(component):
 
     mainPage = requests.get("https://www.startech.com.bd/component/"+component)
