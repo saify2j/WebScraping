@@ -37,7 +37,7 @@ def load_data(url, component, last_page):
             prices.append(j.get_text()[18:])
 
         # print(names[0]+" : "+links[0]+" : "+prices[0])
-        if os.path.exists('ryans-' + component + '.csv') == False:
+        if os.path.exists('Ryans\\'+'ryans-' + component + '.csv') == False:
             rows = zip(names, links, prices)
             wr = open('ryans-'+component+'.csv', 'a', newline='')
             writer = csv.writer(wr)
