@@ -37,12 +37,12 @@ def load_data(url, component, last_page):
             prices.append(j.get_text()[18:])
 
         # print(names[0]+" : "+links[0]+" : "+prices[0])
-        if os.path.exists('Ryans\\'+'ryans-' + component + '.csv') == False:
-            rows = zip(names, links, prices)
-            wr = open('ryans-'+component+'.csv', 'a', newline='')
-            writer = csv.writer(wr)
 
-            for row in rows:
+        rows = zip(names, links, prices)
+        wr = open('Ryans\\ryans-'+component+'.csv', 'a', newline='')
+        writer = csv.writer(wr)
+
+        for row in rows:
                 writer.writerow(row)
     print("Writing to file done...")
 
@@ -57,7 +57,7 @@ def main():
     for component in components:
         last_page=get_last_page(url, component)
         load_data(url, component, last_page)
-    # last_page = get_last_page(url, component)
+    last_page = get_last_page(url, component)
     # print(last_page)
     # load_data(url, component, last_page)
 
