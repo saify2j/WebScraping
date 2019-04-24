@@ -1,0 +1,77 @@
+body
+{
+	background-color: gray;
+	margin:0px;
+}
+
+#content
+{
+	width: 1000px;
+	margin: 0px auto; 
+	padding:0px;
+	background-color: white;
+	border: 1px solid;
+
+}
+
+#banner
+{
+	height: 150px;
+	background-color: orange;
+	font-size: 100px;
+	text-align: center;
+}
+
+#menu
+{
+	height: 25px;
+	background-color: yellow;
+}
+
+#main_content
+{
+
+	height: 1000px;
+}
+#body_content
+{
+	width: 700px;
+	float: left;
+	background-color: teal;
+	height: 100%;
+}
+
+#advertisement
+{
+	height: 1000px;
+	width: 300px;
+	float: left;
+	background-color: #112233;
+	
+}
+
+#footer
+{
+	height: 60px;
+	clear: both;
+	background-color: pink;
+	text-align: center;
+}
+
+#user_info
+{
+	text-align:right;
+	margin-right:15px;
+}
+#banner{
+	font-family: 'Times New Roman';
+}
+p{
+	padding: 20px;
+}
+h3{
+	padding: 20px;
+}
+#message{
+	height: 150px;
+}
